@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-number = float(input(""))
+number = int(input(""))
 
 if number == 0:
     print("This number is equal to zero.")
