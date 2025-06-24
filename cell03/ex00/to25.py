@@ -5,4 +5,4 @@ if enter_num > 25 :
 else :
     while enter_num <= 25 :
         print(f"Inside the loop, my variable is {enter_num}")
-        enter_num += 1
+        enter_num += 1 
