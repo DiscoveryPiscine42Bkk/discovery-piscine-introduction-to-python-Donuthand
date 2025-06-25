@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 num = [2, 8, 9, 48, 8, 22,-12, 2]
-print(f"Original array = {num}")
-addnum = [n + 2 for n in num if n > 5]
+addnum = []
+for i in num:
+    if i > 5:
+        addnum.append(i+2)
 print(addnum)
