@@ -1,3 +1,4 @@
 #!/usr/bin/env python3
 import sys
-print(len(sys.argv))
+para = (len(sys.argv)) -1
+print(f"Number of parameters: {para}")
