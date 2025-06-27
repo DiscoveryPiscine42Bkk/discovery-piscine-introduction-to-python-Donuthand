@@ -9,7 +9,6 @@ def checkmate(board_str):
             print("Fail")  
             return
 
-    # สร้างกระดาน
     board = [list(row) for row in lines]
     king_count = 0
     king_x, king_y = -1, -1
